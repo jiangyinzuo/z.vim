@@ -8,6 +8,15 @@ Use z in Vim.
 - [fzf](https://github.com/junegunn/fzf)
 - awk
 
+## Installation
+
+### Using [vim-plug](https://github.com/junegunn/vim-plug)
+
+```vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'jiangyinzuo/z.vim'
+```
+
 ## Commands
 
 ```
